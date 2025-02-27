@@ -9,7 +9,7 @@ const closeBtn = document.querySelector(".close-btn");
 const chatbotcloseBtn = document.querySelector(".close-btn");
 
 let userMessage;
-const API_KEY = "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";
+const API_KEY = "your_api_key";
 
 const createChatLi = (message,className) =>{
     const chatLi = document.createElement("li");
